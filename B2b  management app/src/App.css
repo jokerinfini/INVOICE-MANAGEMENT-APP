@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.MuiInputBase-input{
+  color:#FFFFFFA6 !important;
+}
+.makeStyles-editHeader-241 {
+  background-color: #2A3E4C !important;
+}
+.tableContainer {
+  display: flex;
+  max-height: fit-content;
+  overflow-y: scroll;
+  /* background-color: grey; */
+}
+
+.tableContainer:nth-child(even) {
+  background-color: red !important;
+}
+.MuiTableContainer-root{
+  width:92vw !important;
+  height:67vh !important;
+}
+.MuiDialogActions-root{
+  background-color:#2A3E4C!important;
+}
+.MuiTableCell-head {
+  color:#97A1A9 !important;
+  position:sticky  !important;
+}
+.MuiTableCell-body {
+  color:#FFFFFFFF !important;
+}
+.MuiTableRow-root:nth-child(even) {
+  background-color:#283A46 !important;
+}
+.MuiTableCell-root {
+  border:none !important;
+  padding-top:0.1vh !important;
+  padding-bottom: 0.1vh !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color:#14AFF1 !important;
+}
