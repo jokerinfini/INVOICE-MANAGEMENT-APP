@@ -1,0 +1,34 @@
+.MuiDataGrid-root{
+    border:none !important;
+    box-sizing:content-box !important;
+}
+.MuiDataGrid-columnSeparator {
+    display:none !important
+}
+.MuiDataGrid-cell {
+    border:none !important;
+    color:#FFFFFF;
+    outline:none !important;
+}
+.MuiDataGrid-columnsContainer {
+    border-bottom: 2px solid #283A46!important;
+    color:#97A1A9 !important;
+  }
+.MuiDataGrid-row.Mui-odd {
+    background-color: #283A46;
+  }
+.MuiCheckbox-colorPrimary.Mui-checked {
+    color: #14aff1 !important;
+}
+.MuiDataGrid-root .MuiDataGrid-row.Mui-selected {
+    background-color: #2A5368 !important;
+}
+.MuiDataGrid-colCell{
+    outline:none !important;
+}
+.MuiDataGrid-viewport{
+    background-color: #273d49CC !important;
+}
+.MuiDialog-paper {
+    background-color: transparent !important;
+}
