@@ -1,2 +1,2 @@
-# INVOICE-MANAGEMENT-APP
+# INVOICE-MANAGEMENT-MODEL
 In the B2B world, Account Receivables play a very major role for the business to run smoothly. This Project is aimed at making an Order Management App which is Artificial enabled. The Order Management App has an Account Receivables Dashboard which can predict payment date of invoices and categorize them into aging buckets. AI is based on a regression model which uses random forest algorithm to predict the delay in payments. This application helps the users to understand their clients better on the basis of aging buckets and carry out operations accordingly
